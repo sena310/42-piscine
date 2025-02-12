@@ -6,19 +6,21 @@
 /*   By: onoru <onoru@student.42vienna.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/12 18:20:42 by onoru             #+#    #+#             */
-/*   Updated: 2025/02/12 19:01:17 by onoru            ###   ########.fr       */
+/*   Updated: 2025/02/12 19:24:41 by onoru            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-	
-	void	ft_print_alphabet()
-	
-{
-		char	c = 'a';
-	while	(c <= 'z')
+#include <unistd.h>	
 
+void	ft_print_alphabet(void)
+
+{
+	char	c;
+
+	c = 'a';
+	while (c <= 'z')
 	{
-	write(1, &c, 1);
-		c++;}
+		write(1, &c, 1);
+		c++;
+	}
 }

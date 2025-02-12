@@ -6,17 +6,14 @@
 /*   By: onoru <onoru@student.42vienna.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/12 18:38:36 by onoru             #+#    #+#             */
-/*   Updated: 2025/02/12 19:03:44 by onoru            ###   ########.fr       */
+/*   Updated: 2025/02/12 19:14:19 by onoru            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
 
+void	ft_print_alphabet(void);
 
-void ft_print_alphabet(void);
-
-int main(void)
- {
-		 ft_print_alphabet();
-
+int	main(void)
+{
+	ft_print_alphabet();
 }
-
