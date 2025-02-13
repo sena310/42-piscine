@@ -6,7 +6,7 @@
 /*   By: onoru <onoru@student.42vienna.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/13 13:04:15 by onoru             #+#    #+#             */
-/*   Updated: 2025/02/13 13:52:16 by onoru            ###   ########.fr       */
+/*   Updated: 2025/02/13 14:08:21 by onoru            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -14,10 +14,7 @@
 void	ft_ist_negative(int n)
 {
 	if (n >= '0')
-	write (1, "P", 1);
-	
-	else 
-	write (1, "N", 1);
-
+		write (1, "P", 1);
+	else
+		write (1, "N", 1);
 }
-
